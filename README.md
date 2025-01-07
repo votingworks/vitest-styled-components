@@ -463,12 +463,6 @@ It checks the style rules applied to the root component it receives, therefore t
 
 > Note: for `react-testing-library`, you'll need to pass the first child to check the top-level component's style. To check the styles of deeper components, you can use one of the `getBy*` methods to find the element (e.g. `expect(getByTestId('styled-button')).toHaveStyleRule('color', 'blue')`)
 
-To use the `toHaveStyleRule` matcher with [React Native](https://facebook.github.io/react-native/), change the import statement to:
-
-```js
-import 'jest-styled-components/native'
-```
-
 # Global installation
 
 It is possible to setup this package for all the tests. For Example: import the library once in the `src/setupTests.js` as follows:
