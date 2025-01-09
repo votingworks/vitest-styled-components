@@ -3,6 +3,8 @@
 A set of utilities for testing [Styled Components](https://github.com/styled-components/styled-components) with [Vitest](https://vitest.dev/).
 This package improves the snapshot testing experience and provides a brand new matcher to make expectations on the style rules.
 
+This repository was forked from [jest-styled-components](https://github.com/styled-components/jest-styled-components) and adapted to work with Vitest. The original package used the MIT license, but this one uses GPL-3.0.
+
 # Quick Start
 
 ## Installation
