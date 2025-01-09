@@ -1,6 +1,6 @@
 import { CssAtRuleAST, CssDeclarationAST, CssStylesheetAST, CssTypes } from '@adobe/css-tools';
 import type * as sc from 'styled-components';
-import { type ExpectStatic } from 'vitest';
+import type { ExpectStatic } from 'vitest';
 import { areCssMediaQueriesEqual, areCssSupportsEqual, buildReturnMessage, getCSS, matcherTest } from './utils.js';
 
 export type Value = string | RegExp | boolean | null | undefined;
